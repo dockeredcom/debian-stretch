@@ -1,0 +1,36 @@
+/*
+*
+*   Version 1.0.0
+*
+ */
+
+ext.docker = []
+
+initDirectories()
+
+/*
+*
+*   Functions
+*
+ */
+
+def initDirectories() {
+  def baseDirectories = ["src/docker", "src/resources"]
+  def baseFiles = ["src/docker/Dockerfile", ".gitignore"]
+
+  baseDirectories.each { baseDirName ->
+    def baseDir = new File("${rootDir}/${baseDirName}")
+
+    if (!baseDir.exists()) {
+      baseDir.mkdirs()
+    }
+  }
+
+  baseFiles.each { baseFileName ->
+    def baseFile = new File("${rootDir}/${baseFileName}")
+
+    if (!baseFile.exists()) {
+      baseFile << " "
+    }
+  }
+}
