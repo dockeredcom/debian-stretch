@@ -1,1 +1,13 @@
+// Hidden gradle directory
+
 .gradle/
+
+// The default build directory
+
+build/
+
+// For IntelliJ
+
+*.iml
+*.ipr
+*.iws
