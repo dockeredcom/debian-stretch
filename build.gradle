@@ -8,9 +8,9 @@ apply from: "idea.gradle"
 apply from: "docker.gradle"
 
 ext.docker = [
-  repository: "asynchrone",
-  image: "debian-stretch",
-  name: "stretch1"
+        repository: "asynchrone",
+        image: "debian-stretch",
+        container: "stretch1"
 ]
 
 project.ext.initDirectories()
