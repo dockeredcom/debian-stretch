@@ -5,7 +5,6 @@ This image is the base image for all my other images.  It's a basic Debian Stret
 ## Configuration changes
 
 - The timezone is set to "Europe/Brussels" by default, but it can be overriden as it is a configuration argument.
-- The repositories for apt-get are set to OVH (www.ovh.fr).  Asynchrone is hosting all its servers at OVH at this moment.  Setting the repository to OVH makes perfect sense for speed and download traffic.
 - apt-utils is installed: apt-get otherwise gives a warning about it.
 - /root/.bashrc file for colorized ls command
 
@@ -17,3 +16,7 @@ It might not be such a good idea to base your own images upon this image.
 # Support
 
 This image is supported and maintained by Asynchrone. If you have any problems, bugs or questions, please contact info@asynchrone.com. Asynchrone will provide the best support possible. However, as this is a free and open source image, Asynchrone cannot guarantee any timing, nor solution. If you want a higher level of support, you may want to consider a paid support option. Contact yves.vindevogel@asynchrone.com for paid support questions.
+
+# TODO
+
+- Update the sources.list.d with a file specific to OVH. Before I put a file, I want to see how OVH configures their Debian servers.
