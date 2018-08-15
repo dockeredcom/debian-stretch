@@ -2,7 +2,7 @@
 
 FROM debian:stretch-slim
 
-MAINTAINER Yves Vindevogel (yves.vindevogel@asynchrone.com)
+MAINTAINER Yves Vindevogel (yves.vindevogel@dockered.com)
 
 ENV SHELL=/bin/bash
 
