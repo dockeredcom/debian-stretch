@@ -1,8 +1,8 @@
-// Hidden gradle directory
+# Hidden gradle directory
 
 .gradle/
 
-// For IntelliJ
+# For IntelliJ
 
 *.iml
 *.ipr

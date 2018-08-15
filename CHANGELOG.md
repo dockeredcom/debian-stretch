@@ -1,8 +1,8 @@
 # Current versions
 
-- develop: not released yet
-- release (candidate): not released yet
-- master: not released yet
+- develop: 1.0.0
+- release (candidate): 1.0.0
+- master: 1.0.0
 
 # History
 
