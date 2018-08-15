@@ -8,7 +8,7 @@ apply from: "idea.gradle"
 apply from: "docker.gradle"
 
 ext.docker = [
-        repository: "asynchrone",
+        repository: "dockeredcom",
         image: "debian-stretch",
         container: "stretch1"
 ]
