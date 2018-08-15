@@ -2,10 +2,6 @@
 
 .gradle/
 
-// The default build directory
-
-build/
-
 // For IntelliJ
 
 *.iml
