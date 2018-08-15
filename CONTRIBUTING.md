@@ -1,6 +1,6 @@
 # Contributing
 
-If you have any ideas to make this image better, feel free to share them and contact yves.vindevogel@asynchrone.com.  If you make a contribution to this image, you will be mentionned in the list below.
+If you have any ideas to make this image better, feel free to share them and contact yves.vindevogel@asynchrone.com. If you make a contribution to this image, you will be mentioned in the list below.
 
 ## Authors
 
